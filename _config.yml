@@ -1,59 +1,72 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: bsridatta/bsridatta.github.io
+#repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
 
+# favicon: images/favicon.ico
+# redirect_to:
+#   - https://www.linkedin.com/in/sridatta/
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-website: Your website (optional)
+name: Sri Datta Budaraju
+title: YACSG - Yet Another Computer Science Guy 
+email: b.sridatta@gmail.com
+Mobile : +076-965 65 35 
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
+github_username:  bsridatta
+linkedin_username: sridatta
+twitter_username: BSridatta
+facebook_username: sridatta.budaraju
+# dribbble_username: jekyll
+# flickr_username: jekyll
+# instagram_username: chillwildlife
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+# about_title: About Me
+#about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Hi, my name's Sri Datta and I'm a Computer Science masters student at KTH Royal Institute of Technology, Sweden. 
+  I consider myself a curious person and have experimented with different areas in Computer Science from Android Development to Sensor Technology.
+  I pretty much loved "everything" that I did but at the bottom of my heart, I love Physics and the way it teaches us about nature.
+  Like many of you reading this I wanted to see what this "AI" is about. 
+  Thanks to Andrew NG's DeepLearning.ai and Siraj Raval's motivational videos, 
+  I was so fascinated by the scope of its applications and I immediately packed my bags to Stockholm to get really involved.
+  Now I spend the majority of my time doing very interesting courses at KTH and working on an autonomous F1 car at KTH Formula Student.
+  
 
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - Links
-    - Images
+# projects_title: Projects
 
-# Projects Section
-# projects_title: Projects #(Use this to override about projects section title)
 
 # Experience Section
-# experience_title: Experience #(Use this to override about experience section title)
+
+
+
+# experience_title: Experience
 
 # Education Section
-# educaton_title: Education #(Use this to override about education section title)
+# educaton_title: Education
 
 # More Section
-# more_title: A Little More About Me #(Use this to override about more section title)
+# more_title: A Little More About Me
 more_content: | # this will include new lines to allow paragraphs
-  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-
+  Alongside my interests in Deep Learning and Autonomous Systems, some of my other interests and hobbies are:
+   - Watching Movies
+   - Listening to Music
+   - Admiring the beauty of nature
+   
+  If you have anything in common, Do ping me. I'd love to have a chat with people like you ;)
+ 
+ 
 # Footer
-footer_show_references: true
+footer_show_references: false
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
 # remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
@@ -61,3 +74,5 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+ - jekyll-redirect-from
+

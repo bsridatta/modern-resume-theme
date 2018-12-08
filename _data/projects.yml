@@ -1,8 +1,124 @@
 # Project template
-- name: Project name
-  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+- name: Accident Anticipation
+  #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
   quote: >
-    Short overview of the project (optional)
+    Real time accident detection in video feeds using Hierarchical Recurrent Neural Networks with LSTM cells. Trained on hand sampled clips from YouTube. Part of my bachelor thesis.
   description: | # this will include new lines to allow paragraphs
-    Description about the work on/with the project
+    Built a deep learning model to detect car accidents in video clips
+    --Implemented and tweaked YOLOv2 to detect cars in highway cams
+    --Wrote scripts to scrape video clips from Youtube
+    --Collected a data set of 200+ accident/non-accident videos
+    --Preprocessed the data-set to lessen the burden on the machine
+    --Explored pre trained models on the internet with the gathered videos
+    --Experimented with a few DL models for classification
+    --Implemented HRNN with LSTM to classify the video clips
+
+    Python, Keras, Google Colabs
+    
+# Project template
+- name: Safe Rider - Road Assistant
+  #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  quote: >
+    Road safety application which warns users of road hazards in real-time. Detects hazards using on-board IMU sensors and Crowd-Sources the data to alert other users. Built the whole working application during a 24-hour hackathon.
+  description: | # this will include new lines to allow paragraphs
+    Developed road safety application which warns users of road hazards in real-time
+    --Implemented algorithms to detect road hazards using IMU sensors
+    --Analyzed the IMU sensor trends from a bike driven on a bad road
+    --Crowd-Sourced the detections to Firebase Cloud Database
+    --Integrated voice assistance to warn the user if approaching the detection
+    --Built the whole working app during a 24-hour hackathon conducted by
+    --Internet and Mobile Association of India in which we won the 1st place 
+    --Extended project doing experiments after the hackathon
+
+    Java, Android Studio, Google Maps, Navigations APIs , Firebase
+    
+    
+# Project template
+- name: Twitter'e'con
+  #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  quote: >
+    Sentimental Analysis tool to analyze real-time trends of keywords in Twitter. Classified live tweets from twitter API using ensemble modelling and implemented live graphical visualizations.   
+  description: | # this will include new lines to allow paragraphs
+    A Sentimental Analysis tool to analyze real-time trends of keywords in Twitter
+    --Fetched Positive and Negative example sentences from online tutorials
+    --Used Twitter API to fetch live tweets based on the keyword passed
+    --Wrote functions to pass just adjective from the tweets into the classifiers
+    --Classified the tweet based on the confidence of the classifiers put together
+    --Built an interface window for the tool using TKinter
+    --Integrated live graphical visualizations of the sentiments of the keyword
+
+    Python, NLTK, Sci-Kit, Tweepy, TKinter
+    
+    
+
+# Project template
+- name: Indoor Localization and Navigation
+  #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  quote: >
+    Indoor position system that localizes users using dual band WiFi routers and Low Energy Bluetooth Beacons without any manual fingerprinting of the environment.  
+  description: | # this will include new lines to allow paragraphs
+    Implemented and tweaked YOLOv2 to detect cars in highway cams
+    --Wrote scripts to scrape video clips from Youtube
+    --Collected a data set of 200+ accident/non-accident videos
+    --Preprocessed the data-set to lessen the burden on the machine
+    --Explored pre trained models on the internet with the gathered videos
+    --Experimented with a few DL models for classification
+    --Implemented HRNN with LSTM to classify the video clips
+
+    Python, Java, Android Studio
+
+
+    
+    
+
+# Project template
+- name: Lego-Bot
+  #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  quote: >
+    One of my most simple but elegant projects that I did so far. Wish I had some demos.
+  description: | # this will include new lines to allow paragraphs
+    Built an object detection and avoidance robot using Lego Mindstorms
+    --Integrated LEGO brick, IR, Supersonic, touch, sound sensors to achieve required functions
+    --Course correction, React to and search for sound sources like claps 
+    
+    Lego Mindstorms, Lego NXT
+
+
+
+# Project template
+- name: E-Chain
+  #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  quote: >
+    An emergency train stopping cum Surveillance system designed for Indian Railways. Awarded as top 30 ideas by Amrita TBI- India's best Technological Business Incubator.  
+  description: | # this will include new lines to allow paragraphs
+    Built an emergency train stopping cum Surveillance system
+    --Devised an emergency button-Cam module using RPi
+    --The RPi module alerts the onboard authority when a button is triggered
+    --The data is then broadcasted to authority’s device using a local network
+    --Created by hot-spot to deal with network issues in remote areas
+    --This data is then uploaded from the device to the cloud for official purposes
+    --The project was placed in the top 30 ideas by Amrita TBI
+    -- India’s best Technological Business Incubator
+
+
+    Python, Java, Android Studio, Raspberry Pi, Arduino
+
+# Project template
+- name: book crawler
+  #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  quote: >
+    My very first project that I was so passionate about. This is one of the reasons I had got into indoor localisation and worked in AMUDA labs. 
+  description: | # this will include new lines to allow paragraphs
+    An android application for visualizing the location of a book in the library
+    --Uses the information in the university database and maps the location
+
+    Java, Android Studio, SQL
+
+ 
